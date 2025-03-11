@@ -12,8 +12,8 @@
 
 :root {
 
-  --clr-primary-200: ;
-  --clr-primary-500: ;
+  --clr-primary-200: #b4f3ed;
+  --clr-primary-500: #65e6d9;
 
   --clr-secondary-200: ;
   --clr-secondary-500: ;
@@ -30,5 +30,5 @@
 
 
 main {
-  
+
 }
