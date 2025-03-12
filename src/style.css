@@ -45,6 +45,11 @@ main {
 }
 
 
+.header-text {
+  
+}
+
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -58,7 +63,7 @@ main {
 }
 
 .text-2 {
-  gri
+  grid-column: ;
 }
 
 
