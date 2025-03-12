@@ -27,7 +27,7 @@
   --clr-text-500: #3c1642;
 
   --clr-background-200: ;
-  --clr-background-500: ;
+  --clr-background-500: #65E6D9;
 
 
   --ff: ;
@@ -35,9 +35,9 @@
 }
 
 
-/* main {
-  
-} */
+body {
+  background-color: var(--clr-background-500);
+}
 
 
 /* .container {
@@ -49,17 +49,19 @@
 
 .header-text {
   font-size: 6rem;
+  color: var(--clr-text-500);
 }
 
 .subtitle-text {
   font-size: 2rem;
+  color: var(--clr-text-500);
 }
 
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr repeat(3, 200px);
+  grid-template-rows: repeat(4, 1fr);
   gap: 10px;
   align-items: center;
   
