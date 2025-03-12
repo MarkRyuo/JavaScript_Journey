@@ -70,7 +70,12 @@ main {
 }
 
 .text-3 {
-  grid-row: ;
+  grid-row: 2 / 4;
+  grid-column: 8 / 13;
+}
+
+.text-4 {
+  gri
 }
 
 
