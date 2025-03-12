@@ -75,7 +75,8 @@ main {
 }
 
 .text-4 {
-  gri
+  grid-row: 4 / 5 ;
+  
 }
 
 
