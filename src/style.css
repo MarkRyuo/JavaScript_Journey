@@ -47,16 +47,18 @@ main {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  grid-template-areas: 
-    "text1 text1 text1"
-  ;
+  
 }
 
 
 .text-1 {
-  grid-area: text1;
+  grid-column: 2 / 11;
+}
+
+.text-2 {
+  gri
 }
 
 
