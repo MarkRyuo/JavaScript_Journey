@@ -7,6 +7,8 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  mar
 }
 
 
@@ -53,7 +55,7 @@ main {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 1fr repeat(3, 200px);
   
 }
 
