@@ -55,3 +55,8 @@ main {
 }
 
 
+.text-1 {
+  grid-area: text1;
+}
+
+
