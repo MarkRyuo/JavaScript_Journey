@@ -23,7 +23,7 @@
   --clr-accent-200: ;
   --clr-accent-500: ;
 
-  --clr-text-200: ;
+  --clr-text-200: #ca81d5;
   --clr-text-500: #3c1642;
 
   --clr-background-200: ;
@@ -62,7 +62,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
+  gap: 5px;
   align-items: center;
   
 }
