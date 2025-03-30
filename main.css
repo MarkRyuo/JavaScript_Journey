@@ -52,8 +52,12 @@ img {
 
   --clr-primary--200: ;
   --clr-secondary--500: ;
-  --clr-accent: ;
-  --clr-text: #333333;
+
+  --clr-accent--200: ;
+  --clr-accent--500: ;
+
+  --clr-text--200: ;
+  --clr-text--500: #333333;
 
   /*? font-family */
   --ff: "popins", sans-serif;
