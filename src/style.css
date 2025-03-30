@@ -43,13 +43,6 @@ body {
 }
 
 
-/* .container {
-  border: 1px solid var(--clr-text-500);
-
-
-} */
-
-
 .header-text {
   font-size: 6rem;
   color: var(--clr-text-500);
