@@ -50,8 +50,8 @@ img {
 
 :root {
 
-  --clr-primary: ;
-  --clr-secondary: ;
+  --clr-primary--200: ;
+  --clr-secondary--500: ;
   --clr-accent: ;
   --clr-text: #333333;
 
