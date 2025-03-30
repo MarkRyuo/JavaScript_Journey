@@ -103,7 +103,7 @@ img {
   --space-sm: 0.938rem;
   /*? Small spacing 15px*/
   --space-xs: 0.313rem;
-  /* Extra small spacing 5px*/
+  /*? Extra small spacing 5px*/
 
   /*? max-width & min-width */
   --w-max-xl: 1500px;
@@ -138,7 +138,6 @@ img {
   --p-lg: ;
   --p-sm: ;
   --p-xs: ;
-
 
 
 }
