@@ -91,11 +91,11 @@ img {
 
   /*? spacing */
   --space-3xl: 4.5rem;
-  /* Extra extra large spacing 72px*/
+  /*? Extra extra large spacing 72px*/
   --space-xxl: 3.75rem;
-  /* Extra large spacing 60px*/
+  /*? Extra large spacing 60px*/
   --space-xl: 2.75rem;
-  /* Extra large spacing 44px*/
+  /*? Extra large spacing 44px*/
   --space-lg: 1.875rem;
   /* Large spacing 30px*/
   --space-md: 1.25rem;
