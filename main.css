@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*! Naming Convention  */
+/* 
+  card-row1-col1
+  card-row1-col2
+  card-row1-col3
+
+  card-row2-col1
+  card-row2-col2
+  card-row2-col3
+
+  card-row3-col1
+  card-row3-col2
+  card-row3-col3
+*/
+
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body,
+html {
+  font-family: var(--ff);
+  background-color: var(--clr-primary);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+
+:root {
+
+  --clr-primary: ;
+  --clr-secondary: ;
+  --clr-accent: ;
+  --clr-text: #333333;
+
+  /*? font-family */
+  --ff: "popins", sans-serif;
+  --ff1: "Roboto", sans-serif;
+  --ff2: ;
+  --ff3: ;
+
+
+
+  /*? font-text-size */
+  --fs-6xl: 3.75rem;
+  /*? 60px */
+  --fs-5xl: 3rem;
+  /*? 48px */
+  --fs-4xl: 2.25rem;
+  /*? 36px */
+  --fs-3xl: 1.875rem;
+  /*? 30px */
+  --fs-2xl: 1.5rem;
+  /*? 24px */
+  --fs-xl: 1.25rem;
+  /*? 20px */
+  --fs-lg: 1.125rem;
+  /*? 18px */
+  --fs-normal: 1rem;
+  /*? 16px (default) */
+  --fs-sm: 0.875rem;
+  /*? 14px */
+  --fs-xs: 0.75rem;
+  /*? 12px */
+
+  /*? spacing */
+  --space-3xl: 4.5rem;
+  /* Extra extra large spacing 72px*/
+  --space-xxl: 3.75rem;
+  /* Extra large spacing 60px*/
+  --space-xl: 2.75rem;
+  /* Extra large spacing 44px*/
+  --space-lg: 1.875rem;
+  /* Large spacing 30px*/
+  --space-md: 1.25rem;
+  /* Medium spacing 20px*/
+  --space-sm: 0.938rem;
+  /* Small spacing 15px*/
+  --space-xs: 0.313rem;
+  /* Extra small spacing 5px*/
+
+  /*? max-width & min-width */
+  --w-max-xl: 1500px;
+  /*? Max-width */
+  --w-max-lg: 1200px;
+  --w-max-md: 992px;
+  --w-max-sm: 768px;
+  --w-max-xs: 576px;
+  /*? The smallest breakpoint */
+
+  --w-min-xl: 1201px;
+  /*? Min-width(usually just above the previous max) */
+  --w-min-lg: 993px;
+  --w-min-md: 769px;
+  --w-min-sm: 577px;
+  --w-min-xs: 357px;
+  /*? The smallest breakpoint */
+
+
+  /*?margin  */
+  --m-auto: auto;
+  --m-xxl: ;
+  --m-xl: ;
+  --m-lg: ;
+  --m-sm: ;
+  --m-xs: ;
+
+  /*? padding  */
+  --p-auto: auto;
+  --p-xxl: ;
+  --p-xl: ;
+  --p-lg: ;
+  --p-sm: ;
+  --p-xs: ;
+
+
+
+}
+
+
+/*! Font-Size  */
+.fs-1 {
+  font-size: var(--fs-normal);
+  /*? 16px */
+}
+
+.fs-2 {
+  font-size: var(--fs-lg);
+  /*? 18px */
+}
+
+.fs-3 {
+  font-size: var(--fs-xl);
+  /*? 20px */
+}
+
+.fs-4 {
+  font-size: var(--fs-2xl);
+  /*? 24px */
+}
+
+.fs-5 {
+  font-size: var(--fs-3xl);
+  /*? 30px */
+}
+
+.fs-6 {
+  font-size: var(--fs-4xl);
+  /*? 36px */
+}
+
+/*! Font-Weight  */
+.fw-200 {
+  font-weight: 200;
+  /*? Thin */
+}
+
+.fw-400 {
+  font-weight: 400;
+  /*? Regular */
+}
+
+.fw-600 {
+  font-weight: 600;
+  /*? Medium */
+}
+
+.fw-700 {
+  font-weight: 700;
+  /*? Bold */
+}
+
+.fw-800 {
+  font-weight: 800;
+  /*? Extra Bold */
+}
+
+.fw-900 {
+  font-weight: 900;
+  /*? Black */
+}
+
+
+/*! Margin & Padding  */
+
+.p-1 {
+  padding: var(--space-xs);
+}
+
+/*? 5px*/
+.p-2 {
+  padding: var(--space-sm);
+}
+
+/*? 15px*/
+.p-3 {
+  padding: var(--space-md);
+}
+
+/*? 20px*/
+.p-4 {
+  padding: var(--space-lg);
+}
+
+/*? 24px*/
+.p-5 {
+  padding: var(--space-xl);
+}
+
+/*? 44px*/
+.m-1 {
+  margin: var(--space-xs);
+}
+
+/*? 5px */
+.m-2 {
+  margin: var(--space-sm);
+}
+
+/*? 15px*/
+.m-3 {
+  margin: var(--space-md);
+}
+
+/*? 20px*/
+.m-4 {
+  margin: var(--space-lg);
+}
+
+/*? 24px*/
+.m-5 {
+  margin: var(--space-xl);
+}
+
+/*? 44px*/
+
+
+/*!  */
+
+
+
+/*! Responsive */
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
