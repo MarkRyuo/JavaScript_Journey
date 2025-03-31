@@ -15,3 +15,5 @@ console.log(heading2);
 
 let heading3 = document.getElementsByTagName("h3");
 console.log(heading3);
+
+// * This is getting element using query
