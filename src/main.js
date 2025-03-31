@@ -16,6 +16,6 @@ let querySelectorAll = document.querySelectorAll("p");
 console.log(querySelectorAll);
 
 
-let msg = cont.getElementById("msg");
 let cont = document.querySelector(".container");
+let msg = cont.getElementById("msg");
 console.log(msg) ;
