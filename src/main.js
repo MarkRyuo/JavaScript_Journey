@@ -16,8 +16,8 @@
 // console.log(querySelectorAll);
 
 
-let cont = document.getElementById("container");
-let msg = cont.querySelector(".message");
+let cont = document.getElementsByClassName("container");
+let msg = cont.querySelectorAll(".message");
 console.log(msg);
 
 
