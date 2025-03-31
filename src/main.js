@@ -40,3 +40,6 @@ console.log(insert);
 
 
 //* Parent node Property
+
+let parent = document.querySelector(".parent");
+console.log(parent)
