@@ -29,4 +29,5 @@ console.log(heading5);
 
 // * 
 
-let cont= document.getElementById("container")
+let cont = document.getElementById("container");
+let msg = 
