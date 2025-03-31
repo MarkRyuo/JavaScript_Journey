@@ -37,3 +37,6 @@ console.log(heading5);
 let cont = document.getElementById("container"); //* Get the Container
 let insert = cont.querySelectorAll(".insert");  //* get all elements with class insert
 console.log(insert);
+
+
+//* Parent node Property
