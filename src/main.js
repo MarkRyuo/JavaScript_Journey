@@ -11,3 +11,4 @@ console.log(tag);
 
 let querySelector = document.querySelector(".querySelector");
 console.log(querySelector);
+
