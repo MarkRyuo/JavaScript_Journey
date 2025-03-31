@@ -3,4 +3,4 @@
 let msg = document.getElementById("msg");
 console.log(msg);
 
-let tag = document.getElementsByTagName("p")
+let tag = document.getElementsByTagName("p");
