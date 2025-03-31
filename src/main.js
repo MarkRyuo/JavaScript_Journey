@@ -25,3 +25,4 @@ console.log(heading4);
 
 let heading5 = document.querySelectorAll("h5");
 console.log(heading5);
+
