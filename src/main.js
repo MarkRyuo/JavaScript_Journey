@@ -30,5 +30,5 @@ console.log(heading5);
 // * 
 
 let cont = document.getElementById("container");
-let insert = cont.querySelector(".insert")
+let insert = cont.querySelector(".insert");n 
 console.log(insert);
