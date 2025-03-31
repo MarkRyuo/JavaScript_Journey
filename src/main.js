@@ -10,3 +10,4 @@ console.log(heading1);
 
 let heading2 = document.getElementsByClassName("heading2");
 console.log(heading2);
+
