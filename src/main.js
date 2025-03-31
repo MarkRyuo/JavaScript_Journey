@@ -23,5 +23,5 @@ console.log(heading4);
 
 // * This is getting all element using query selector all
 
-let heading5 = document.querySelectorAll(".heading5");
+let heading5 = document.querySelectorAll("h5");
 console.log(heading5);
