@@ -1,7 +1,7 @@
 
 
-let msg = document.getElementById("msg");
-console.log(msg);
+// let msg = document.getElementById("msg");
+// console.log(msg);
 
 let message = document.getElementsByClassName("message");
 console.log(message);
@@ -16,6 +16,6 @@ let querySelectorAll = document.querySelectorAll("p");
 console.log(querySelectorAll);
 
 
-let msg = document.getElementById("msg");
+let msg = cont.getElementById("msg");
 let cont = document.querySelector(".container");
 console.log(msg) ;
