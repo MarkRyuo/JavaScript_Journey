@@ -8,3 +8,5 @@ console.log(message);
 
 let tag = document.getElementsByTagName("p");
 console.log(tag);
+
+
