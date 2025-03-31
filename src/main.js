@@ -19,3 +19,4 @@ console.log(heading3);
 // * This is getting element using query selector
 
 let heading4 = document.querySelector(".heading4");
+console.log(heading4);
