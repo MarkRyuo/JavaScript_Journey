@@ -45,3 +45,5 @@ let child = document.querySelector(".child");
 console.log(child.parentElement)
 
 //* Child node Property
+
+ 
