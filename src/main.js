@@ -13,4 +13,5 @@ console.log(heading2);
 
 // * This is getting element by tag name
 
-let heading3 = document.getElementsByTagName("h3")
+let heading3 = document.getElementsByTagName("h3");
+console.log(heading3);
