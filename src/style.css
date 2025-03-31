@@ -42,7 +42,10 @@ body {
   background-color: var(--clr-background-500);
 }
 
-
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 
 
