@@ -14,3 +14,5 @@ console.log(querySelector);
 
 let querySelectorAll = document.querySelectorAll("p");
 console.log(querySelectorAll);
+
+
