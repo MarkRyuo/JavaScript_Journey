@@ -42,4 +42,4 @@ console.log(insert);
 //* Parent node Property
 
 let child = document.querySelector(".child");
-console.log(parent)
+console.log(child.parentEle)
