@@ -30,4 +30,4 @@ console.log(heading5);
 // * 
 
 let cont = document.getElementById("container");
-let msg = 
+let msg = cont.querySelector
