@@ -29,6 +29,11 @@ console.log(heading5);
 
 // * 
 
-let cont = document.getElementById("container");
-let insert = cont.querySelectorAll(".insert"); 
+/**
+ * Retrieves the container element and selects all elements with the 'insert' class within it.
+ * @type {HTMLElement} cont - The container element selected by its ID.
+ * @type {NodeList} insert - A list of elements with the 'insert' class within the container.
+ */
+let cont = document.getElementById("container"); //* Get the Container
+let insert = cont.querySelectorAll(".insert");  //* get all elements with class insert
 console.log(insert);
