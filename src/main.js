@@ -47,4 +47,4 @@ console.log(child.parentElement)
 //* Child node Property
 
 let title = document.querySelector(".title");
-console.log(title.firstElementChild);
+console.log(title.firstElementChild); //* last, first, childNodes
