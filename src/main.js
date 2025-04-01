@@ -48,6 +48,3 @@ console.log(child.parentElement)
 
 let title = document.querySelector(".title");
 console.log(title.firstElementChild); //* last, first, childNodes
-
-
-
