@@ -51,6 +51,3 @@ console.log(title.firstElementChild); //* last, first, childNodes
 
 
 
-
-
-
