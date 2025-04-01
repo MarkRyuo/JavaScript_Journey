@@ -50,3 +50,7 @@ let title = document.querySelector(".title");
 console.log(title.firstElementChild); //* last, first, childNodes
 
 
+
+
+
+
