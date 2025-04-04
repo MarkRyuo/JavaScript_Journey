@@ -63,3 +63,4 @@ console.log(div);
 let menu = document.querySelector(".menu");
 
 let li = document.createElement("li");
+li.innerHTML = "About"
