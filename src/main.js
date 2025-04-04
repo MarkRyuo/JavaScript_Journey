@@ -50,6 +50,9 @@ let title = document.querySelector(".title");
 console.log(title.firstElementChild); //* last, first, childNodes
 
 
-let div = document.createElement("div");
-div.innerHTML = "<p>Hello World</p>";
+let div = document.createElement("div"); //* create a div element
+div.innerHTML = "<p>Hello World</p>"; //* add content to the div
+document.body.appendChild(div); //* add the div to the body
+div.id = "div"; //* add an id to the div
+div.className = "newDiv"; //* add a class to the div
 console.log(div);
