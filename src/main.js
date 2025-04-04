@@ -56,3 +56,7 @@ document.body.appendChild(div); //* add the div to the body
 div.id = "div"; //* add an id to the div
 div.className = "newDiv"; //* add a class to the div
 console.log(div);
+
+
+// ! Append Child
+
