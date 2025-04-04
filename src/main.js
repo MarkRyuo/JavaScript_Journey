@@ -48,3 +48,26 @@ console.log(child.parentElement)
 
 let title = document.querySelector(".title");
 console.log(title.firstElementChild); //* last, first, childNodes
+
+// ! Create Element
+let div = document.createElement("div"); //* create a div element
+div.innerHTML = "<p>Hello World</p>"; //* add content to the div
+document.body.appendChild(div); //* add the div to the body
+div.id = "div"; //* add an id to the div
+div.className = "newDiv"; //* add a class to the div
+console.log(div);
+
+
+// ! Append Child
+
+let menu = document.querySelector(".menu"); //* select the div menu
+
+let li = document.createElement("li"); //* create element li
+li.innerHTML = "About"; //* add content to the li
+menu.appendChild(li); //* add the li to the menu
+//? What if i loop it? well see
+
+
+
+
+
