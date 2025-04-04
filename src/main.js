@@ -60,4 +60,6 @@ console.log(div);
 
 // ! Append Child
 
-  
+let menu = document.querySelector(".menu");
+
+let li = document.createElement("li");
