@@ -65,5 +65,6 @@ let menu = document.querySelector(".menu"); //* select the div menu
 let li = document.createElement("li"); //* create element li
 li.innerHTML = "About"; //* add content to the li
 menu.appendChild(li); //* add the li to the menu
+//? What if i loop it? well see
 
 
