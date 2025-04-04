@@ -68,3 +68,6 @@ menu.appendChild(li); //* add the li to the menu
 //? What if i loop it? well see
 
 
+
+
+
