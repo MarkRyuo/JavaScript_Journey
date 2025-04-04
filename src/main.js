@@ -60,8 +60,8 @@ console.log(div);
 
 // ! Append Child
 
-let menu = document.querySelector(".menu");
+let menu = document.querySelector(".menu"); //* select the div menu
 
-let li = document.createElement("li");
-li.innerHTML = "About"
-menu.appendChild(li)
+let li = document.createElement("li"); //* create element li
+li.innerHTML = "About";
+menu.appendChild(li);
