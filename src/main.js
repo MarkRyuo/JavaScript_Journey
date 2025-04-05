@@ -69,3 +69,6 @@ menu.appendChild(li); //* add the li to the menu
 
 
 
+
+
+
