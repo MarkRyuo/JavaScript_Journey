@@ -22,7 +22,7 @@ console.log(h1);
 
 
 //* document.createElement("li") ;
-//? First grab the parent element of li
+//? First grab the parent element of li element
 let ul = document.getElementsByTagName("ul")[0]; 
 //* Create a new li element
 let list = document.createElement("li");
