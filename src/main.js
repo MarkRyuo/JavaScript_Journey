@@ -14,4 +14,10 @@
 
 
 
-//* document.querySelector("") && document.querySelectorAll("")
+//* document.querySelector("") 
+
+
+
+
+
+//* document.querySelectorAll("")
