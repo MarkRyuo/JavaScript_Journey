@@ -23,10 +23,11 @@ console.log(h1);
 
 //* document.createElement("li") ;
 //? First grab the parent element of li
-let ul = document.getElementsByTagName("ul");
-
+let ul = document.getElementsByTagName("ul")[0]; 
+//* Create a new li element
 let list = document.createElement("li");
 list.innerHTML = "Beyond to the Infinite"
+//* Append the new li to the ul
 ul.appendChild(list);
 
 
