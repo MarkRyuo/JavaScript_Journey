@@ -11,7 +11,8 @@ console.log(mainText);
 
 //* getElementsByClassName(".className")
 
-const items = document.getElementsBy
+const items = document.getElementsByClassName("item") ;
+console.log(items);
 
 
 //* getElementByTagName("h1")
