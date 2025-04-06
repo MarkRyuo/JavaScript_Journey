@@ -6,4 +6,8 @@
 
 
 
-//* getElemetByClassName
+//* getElementByClassName(".className")
+
+
+
+//* getElementByTagName()
