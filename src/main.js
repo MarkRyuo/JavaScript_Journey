@@ -10,4 +10,4 @@
 
 
 
-//* getElementByTagName()
+//* getElementByTagName("h2")
