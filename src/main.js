@@ -11,7 +11,7 @@ console.log(mainText);
 
 //* getElementsByClassName(".className")
 
-const items = document.getElementsByClassName("item") ;
+const items = document.getElementsByClassName("items") ;
 console.log(items);
 
 
