@@ -4,7 +4,7 @@
 
 //* getElementById("idName")
 
-let mainText = document.getElementById("")
+let mainText = document.getElementById("main-text") ;
 
 
 
