@@ -9,8 +9,9 @@ console.log(mainText);
 
 
 
-//* getElementByClassName(".className")
+//* getElementsByClassName(".className")
 
+const items = document.getElementsBy
 
 
 //* getElementByTagName("h1")
