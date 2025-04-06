@@ -11,3 +11,7 @@
 
 
 //* getElementByTagName("h1")
+
+
+
+//* document.querySelector("") && document.querySelectorAll("")
