@@ -2,7 +2,7 @@
 
 
 
-//* getElementById
+//* getElementById("idName")
 
 
 
