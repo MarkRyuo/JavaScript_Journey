@@ -17,6 +17,9 @@ console.log(items);
 
 //* getElementByTagName("h1")
 
+const h1 = document.getElementsByTagName("h1") ;
+console.log(h1);
+
 
 //* document.createElement("li") ;
 
