@@ -4,6 +4,8 @@
 
 //* getElementById("idName")
 
+let mainText = document.getElementById("")
+
 
 
 //* getElementByClassName(".className")
