@@ -24,8 +24,10 @@ console.log(h1);
 //* document.createElement("li") ;
 //? First grab the parent element of li
 let ul = document.getElementsByTagName("ul");
-let list = ul.createElement("li").innerHtml = "New Item";
 
+let list = document.createElement("li");
+list.innerHTML = "Beyond to the Infinite"
+ul.appendChild(list);
 
 
 //* document.querySelector("") 
