@@ -44,6 +44,7 @@ itemss.style.color = "red"
 const itemsss = document.querySelectorAll(".items");
 
 itemsss.style.fontSize = "20px" ;
+console.log(itemsss);
 
 
 
