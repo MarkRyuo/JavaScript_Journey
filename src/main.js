@@ -33,7 +33,7 @@ ul.appendChild(list);
 
 //* document.querySelector("")
 
-
+const itemss = document
 
 
 //*document.querySelectorAll("")
