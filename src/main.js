@@ -32,8 +32,11 @@ ul.appendChild(list);
 
 
 //* document.querySelector("")
- 
+
 
 
 
 //*document.querySelectorAll("")
+
+
+
