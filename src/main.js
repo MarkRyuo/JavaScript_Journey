@@ -31,8 +31,23 @@ list.innerHTML = "Beyond to the Infinite"
 ul.appendChild(list);
 
 
-//* document.querySelector("") 
+//* document.querySelector("")
 
+const itemss = document.querySelector(".items");
+
+itemss.style.color = "red"
 
 
 //*document.querySelectorAll("")
+
+
+const itemsss = document.querySelectorAll(".items");
+
+itemsss.style.fontSize = "20px" ;
+console.log(itemsss);
+
+
+
+
+
+
