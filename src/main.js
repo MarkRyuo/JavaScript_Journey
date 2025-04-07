@@ -41,4 +41,7 @@ itemss.style.color = "red"
 //*document.querySelectorAll("")
 
 
+const itemsss = document.querySelectorAll()
+
+
 
