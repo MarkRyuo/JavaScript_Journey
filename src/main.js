@@ -53,6 +53,7 @@ const newDiv = document.createElement("div")
 const newElementText = document.createElement("li");
 
 let body = document.querySelector("body");
+body.append(newDiv)
 
 
 
