@@ -50,7 +50,7 @@ console.log(itemsss);
 //* Creating Elements
 
 const newDiv = document.createElement("div");
-console.log(newDiv) 
+console.log(newDiv); 
 
 let main = document.querySelector("main");
 main.appendChild(newDiv);
