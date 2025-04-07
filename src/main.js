@@ -49,7 +49,7 @@ console.log(itemsss);
 
 //* Creating Elements
 
-const newElementText = document.createElement("li")
+const newElementText = document.createElement("li");
 
 
 
