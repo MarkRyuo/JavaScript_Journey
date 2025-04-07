@@ -47,6 +47,9 @@ itemsss.style.fontSize = "50px" ;
 console.log(itemsss);
 
 
+//* Creating Elements
+
+const newElementText = document.createElement("li")
 
 
 
