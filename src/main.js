@@ -60,5 +60,3 @@ main.appendChild(newDiv);
 
 
 
-
-
