@@ -35,6 +35,8 @@ ul.appendChild(list);
 
 const itemss = document.querySelector(".items");
 
+itemss.style.color = "red"
+
 
 //*document.querySelectorAll("")
 
