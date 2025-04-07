@@ -52,8 +52,6 @@ console.log(itemsss);
 const newDiv = document.createElement("div");
 const newElementText = document.createElement("li");
 
-
-
 let main = document.querySelector("main");
 main.appendChild(newDiv);
 
