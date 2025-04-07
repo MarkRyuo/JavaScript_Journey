@@ -41,7 +41,9 @@ itemss.style.color = "red"
 //*document.querySelectorAll("")
 
 
-const itemsss = document.querySelectorAll()
+const itemsss = document.querySelectorAll(".items");
+
+itemsss.style.fontSize = "3rem"
 
 
 
