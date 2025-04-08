@@ -70,4 +70,3 @@ main.appendChild(newDiv);q
 
 
 
-
