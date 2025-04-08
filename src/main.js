@@ -53,4 +53,4 @@ const newDiv = document.createElement("div");
 console.log(newDiv); 
 
 let main = document.querySelector("main");
-main.appendChild(newDiv);q
+main.appendChild(newDiv);
