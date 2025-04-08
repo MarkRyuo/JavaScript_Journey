@@ -43,11 +43,17 @@ itemss.style.color = "red"
 
 const itemsss = document.querySelectorAll(".items");
 
-itemsss.style.fontSize = "20px" ;
+itemsss.style.fontSize = "50px" ;
 console.log(itemsss);
 
 
+//* Creating Elements
 
+const newDiv = document.createElement("div");
+console.log(newDiv); 
+
+let main = document.querySelector("main");
+main.appendChild(newDiv);q
 
 
 
