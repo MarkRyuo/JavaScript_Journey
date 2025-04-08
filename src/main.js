@@ -55,4 +55,3 @@ console.log(newDiv);
 let main = document.querySelector("main");
 main.appendChild(newDiv);q
 
-
