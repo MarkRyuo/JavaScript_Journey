@@ -1,56 +1,7 @@
-//* Dom Manipulation
+//* Traverse DOM
 
+//* Parent Node Traversal
 
-
-//* getElementById("idName")
-
-const mainText = document.getElementById("main-text") ;
-console.log(mainText);
-
-
-
-//* getElementsByClassName(".className")
-
-const items = document.getElementsByClassName("items") ;
-console.log(items);
-
-
-//* getElementByTagName("h1")
-
-const h1 = document.getElementsByTagName("h1") ;
-console.log(h1);
-
-
-//* document.createElement("li") ;
-//? First grab the parent element of li element
-let ul = document.getElementsByTagName("ul")[0]; 
-//* Create a new li element
-let list = document.createElement("li");
-list.innerHTML = "Beyond to the Infinite"
-//* Append the new li to the ul
-ul.appendChild(list);
-
-
-//* document.querySelector("")
-
-const itemss = document.querySelector(".items");
-
-itemss.style.color = "red"
-
-
-//*document.querySelectorAll("")
-
-
-const itemsss = document.querySelectorAll(".items");
-
-itemsss.style.fontSize = "50px" ;
-console.log(itemsss);
-
-
-//* Creating Elements
-
-const newDiv = document.createElement("div");
-console.log(newDiv); 
-
-let main = document.querySelector("main");
-main.appendChild(newDiv);
+let ul = document.querySelector("ul");
+console.log(ul.parentNode);
+console.log(ul.parentElement);
