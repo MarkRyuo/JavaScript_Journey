@@ -46,6 +46,10 @@ const itemsss = document.querySelector(".items");
 itemsss.style.fontSize = "50px" ;
 console.log(itemsss);
 
+items.foreach(item => {
+  item.fontSize = "50px"
+})
+
 
 //* Creating Elements
 
