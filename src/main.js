@@ -55,7 +55,8 @@ itemsss.forEach(item => {
 
 const newDiv = document.createElement("div"); //? Create a new div element
 console.log(newDiv); 
-newDiv.setAttribute("id", "container")
+newDiv.setAttribute("id", "container") //? Set the id attribute of the new div
+newDiv.setAttribute("className", "container") //? Set the class(className) attribute of the new div
 
 let main = document.querySelector("main"); //* Call the main element
 main.appendChild(newDiv); //* Append the new div to the main element
