@@ -41,10 +41,7 @@ itemss.style.color = "red"
 //*document.querySelectorAll("")
 
 
-const itemsss = document.querySelector(".items");
-
-itemsss.style.fontSize = "50px" ;
-console.log(itemsss);
+const itemsss = document.querySelectorAll(".items");
 
 items.foreach(item => {
   item.fontSize = "50px"
