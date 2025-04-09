@@ -61,7 +61,7 @@ newDiv.setAttribute("className", "container") //? Set the class(className) attri
 //? Can we delete a attribute? Yes, we can use removeAttribute() method
 newDiv.removeAttribute("className") //? Remove the class(className) attribute of the new div
 
-console.log("This is the id attribute: " newDiv.getAttribute("id")):
+console.log("This is the id attribute: " newDiv.getAttribute("id"));
 
 let main = document.querySelector("main"); //* Call the main element
 main.appendChild(newDiv); //* Append the new div to the main element
