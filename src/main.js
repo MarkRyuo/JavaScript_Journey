@@ -45,7 +45,7 @@ const itemsss = document.querySelectorAll(".items");
 
 items.foreach(item => {
   item.fontSize = "50px"
-  item.style.color = ""
+  item.style.color = "green"
 })
 
 
