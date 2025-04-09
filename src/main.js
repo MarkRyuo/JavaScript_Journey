@@ -51,10 +51,12 @@ itemsss.forEach(item => {
 //* If we use querySelectorAll use forEach loop to change the style
 
 
-//* Creating Elements, Appending Elements & 
+//* Creating Elements, Appending Elements, && Modyfying Attributes & Classes
 
-const newDiv = document.createElement("div");
+const newDiv = document.createElement("div"); //? Create a new div element
 console.log(newDiv); 
+newDiv.setAttribute("id", "container")
 
-let main = document.querySelector("main");
-main.appendChild(newDiv);
+let main = document.querySelector("main"); //* Call the main element
+main.appendChild(newDiv); //* Append the new div to the main element
+
