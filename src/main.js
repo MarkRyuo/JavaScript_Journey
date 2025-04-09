@@ -1,3 +1,3 @@
 //* Traverse DOM
 
-//* Parent Node Traversal 
+//* Parent Node Traversal
