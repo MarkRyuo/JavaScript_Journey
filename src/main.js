@@ -51,7 +51,7 @@ itemsss.forEach(item => {
 //* If we use querySelectorAll use forEach loop to change the style
 
 
-//* Creating Elements
+//* Creating Elements, Appending Elements & 
 
 const newDiv = document.createElement("div");
 console.log(newDiv); 
