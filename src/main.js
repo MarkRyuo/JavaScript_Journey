@@ -2,4 +2,4 @@
 
 //* Parent Node Traversal
 
-let ul = document.querySelector("ul")
+let ul = document.querySelector("ul") ;
