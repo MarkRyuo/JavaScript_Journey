@@ -48,6 +48,8 @@ itemsss.forEach(item => {
   item.style.color = "green";
 })
 
+//* If we use querySelectorAll use forEach loop to change the style
+
 
 //* Creating Elements
 
