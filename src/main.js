@@ -12,5 +12,3 @@ console.log(ul.parentElement);
 console.log(ul.childNodes);
 
 
-
-
