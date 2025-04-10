@@ -7,3 +7,4 @@ console.log(ul.parentNode);
 console.log(ul.parentElement);
 
 
+//* Child Node Traversal
