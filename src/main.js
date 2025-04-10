@@ -17,4 +17,3 @@ console.log(ul.childNodes);
 
 
 
-
