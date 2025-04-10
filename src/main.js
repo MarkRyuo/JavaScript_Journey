@@ -9,4 +9,4 @@ console.log(ul.parentElement);
 
 //* Child Node Traversal
 
-let 
+ 
