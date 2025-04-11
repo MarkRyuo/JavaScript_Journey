@@ -47,6 +47,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   max-width: 1500px;
   margin: auto;
+  gap: 1rem;
 }
 
 
@@ -56,7 +57,11 @@ h1 {
 }
 
 
+.card {
+  border: 1px solid red;
 
+  max-height: 100%;
+}
 
 
 
