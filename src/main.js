@@ -27,4 +27,8 @@ cardButton.forEach(card => {
 //* Element.addEventListener("click", function) ;
 
 
-const cardButtonPrimary = document.querySelector("#card_button_primary");
+const cardButtonPrimary = document.querySelector(".card_button_primary");
+
+function alertBtn() {
+  alert("You clicked the button");
+}
