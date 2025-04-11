@@ -72,7 +72,7 @@ main.appendChild(newDiv); //* Append the new div to the main element
 
 //* Parent Node Traversal
 
-let ul = document.querySelector("ul");
+// let ul = document.querySelector("ul");
 console.log(ul.parentNode);
 console.log(ul.parentElement);
 
