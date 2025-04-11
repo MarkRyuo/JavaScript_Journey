@@ -16,4 +16,3 @@ console.log(ul.children);
 
 ul.children[0].style.textTransform = "uppercase";
 ul.children[1].style.color = "red";
-
