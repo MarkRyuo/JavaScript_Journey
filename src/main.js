@@ -10,3 +10,5 @@ console.log(ul.parentElement);
 //* Child Node Traversal
 
 console.log(ul.childNodes);
+
+
