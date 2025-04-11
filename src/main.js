@@ -14,4 +14,5 @@ console.log(ul.childNodes);
 // console.log(ul.lastChild);
 
 ul.childNodes[1].style.color = "red";
+
 ul.childNodes[0].style.textTransform = "uppercase";
