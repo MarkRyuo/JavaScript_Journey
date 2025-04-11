@@ -40,4 +40,4 @@ cardButtonPrimary.addEventListener("click", alertBtn);
 
 //* Element.addEventListener("mousehover", function) ;
 
-const 
+const cardButtonHover = document.querySelector(".card_button--secondary");
