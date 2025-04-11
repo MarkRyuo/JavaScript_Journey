@@ -41,3 +41,7 @@ cardButtonPrimary.addEventListener("click", alertBtn);
 //* Element.addEventListener("mousehover", function) ;
 
 const cardButtonHover = document.querySelector(".card_button--secondary");
+
+function hoverButton() {
+  cardButtonHover.style.backgroundColor = "red";
+}
