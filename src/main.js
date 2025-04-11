@@ -13,8 +13,8 @@
 // })
 
 
-let cardButton = document.querySelectorAll("#card-button");
+let cardButton = document.querySelectorAll("#card_button");
 
 cardButton.forEach(card => {
-  card.style.height = "300px";
+  card.style.height = "50px";
 });
