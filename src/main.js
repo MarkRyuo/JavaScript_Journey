@@ -24,4 +24,7 @@ cardButton.forEach(card => {
 
 //* Event Listeners 
 
-//* Element.addEventListener("click", function)
+//* Element.addEventListener("click", function) ;
+
+
+const cardButton
