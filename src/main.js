@@ -1,4 +1,4 @@
 
 let main  = document.querySelector(".main");
 
-main.style.border = "1px solid red" ;
+main.style.padding = "10px 20px";
