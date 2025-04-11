@@ -11,3 +11,6 @@
 //   divs.style.display = "grid";
 //   divs.style.gridTemplateRow = "repeat(2, 1fr)";
 // })
+
+
+let cardButton = document.querySelector("#card-button");
