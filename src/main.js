@@ -15,5 +15,3 @@ console.log(ul.childNodes);
 
 ul.childNodes[1].style.color = "red";
 
-
-
