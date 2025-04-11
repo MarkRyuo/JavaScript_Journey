@@ -7,4 +7,6 @@ let div = document.querySelectorAll("div");
 
 div.forEach(divs => {
   divs.style.height = "300px";
+  divs.style.alignContent = "center"
+  divs.style.jus
 })
