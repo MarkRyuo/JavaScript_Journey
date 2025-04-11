@@ -45,6 +45,7 @@ body {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  max-width: 1500px;
 }
 
 
