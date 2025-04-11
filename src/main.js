@@ -18,6 +18,9 @@ let cardButton = document.querySelectorAll("#card_button");
 cardButton.forEach(card => {
   card.style.height = "50px";
   card.style.boxShadow = "10px 10px 5px 0px rgba(0,0,0,0.75)";
+  card.style.webkitBoxShadow = "10px 19px 211px 0px rgba(0, 0, 0, 0.75)";
+  card.style.mozBoxShadow = "10px 19px 211px 0px rgba(0, 0, 0, 0.75)";
+  card.style.boxShadow = "10px 19px 211px 0px rgba(0, 0, 0, 0.75)";
 });
 
 
@@ -27,10 +30,10 @@ cardButton.forEach(card => {
 //* Element.addEventListener("click", function) ;
 
 
-const cardButtonPrimary = document.querySelector(".card_button_primary");
+const cardButtonPrimary = document.querySelector(".card_button--primary");
 
 function alertBtn() {
   alert("You clicked the button");
 }
 
-cardButtonPrimary.addEventListener("click", alertBtn)
+cardButtonPrimary.addEventListener("click", alertBtn);
