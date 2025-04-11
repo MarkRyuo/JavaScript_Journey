@@ -32,3 +32,5 @@ const cardButtonPrimary = document.querySelector(".card_button_primary");
 function alertBtn() {
   alert("You clicked the button");
 }
+
+cardButtonPrimary.addEventListener("click", alertBtn)
