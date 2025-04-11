@@ -18,6 +18,7 @@ let cardButton = document.querySelectorAll("#card_button");
 cardButton.forEach(card => {
   card.style.height = "50px";
   card.style.boxShadow = "10px 10px 5px 0px rgba(0,0,0,0.75)";
+
   
 });
 
