@@ -12,7 +12,7 @@ console.log(ul.parentElement);
 // console.log(ul.childNodes);
 // console.log(ul.firstChild)
 // console.log(ul.lastChild);
-console.log(ul.children);
+console.log(ul.children);w
 
 ul.children[0].style.textTransform = "uppercase";
 ul.children[1].style.color = "red";
