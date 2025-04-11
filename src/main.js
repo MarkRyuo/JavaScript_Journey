@@ -13,6 +13,6 @@ console.log(ul.childNodes);
 // console.log(ul.firstChild)
 // console.log(ul.lastChild);
 
-ul.childNodes[1].style.color = "red"
+ul.childNodes[1].style.color = "red";
 
 
