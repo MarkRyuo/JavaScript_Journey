@@ -21,12 +21,9 @@ let btnCounter = document.querySelector('.btn-counter');
 
 const question = () => {
   let q1 = prompt("What is your name?");
-  
-  if (q1 === null || q1 === "") { 
-    alert("You din't enter your name");
-    if(q1 === null) {
-      q1 = prompt("Please enter your name");
-    }
+
+  while (q1 === null || q1 === "") {
+    q1 = prompt("Please enter your name");
   }
 
 }
