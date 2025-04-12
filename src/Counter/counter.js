@@ -20,8 +20,14 @@ const reset = () => {
 let btnCounter = document.querySelector('.btn-counter');
 
 const question = () => {
-  const q1 = prompt("What is your name?");
-  console.log(`Hello ${q1}`);
+  let q1 = prompt("What is your name?");
+  
+  if (q1 === null || q1 === "") { 
+    alert("You din't enter your name");
+    if(q1 === null) {
+      q1 = prompt("Please enter your name");
+    }
+  }
 
 }
 
