@@ -1,11 +1,11 @@
 
 
-//* arrow function: function variable (parameters) => { function body }
+//* arrow function: const variable (parameters) => { function body }
 
 const counter = 0 ;
 
 
 
-function increment() => {
+function increment () => {
   counter += 1;
 }
