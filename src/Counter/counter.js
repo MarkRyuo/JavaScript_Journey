@@ -1,5 +1,6 @@
 
 
+//* arrow function: function name (parameters) => { function body }
 
 const counter = 0 ;
 
