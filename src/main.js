@@ -53,6 +53,8 @@ const cardButtonSecondary = document.querySelector(".card_button--secondary");
 
 function iloveyou() {
   
+  let count = 10; 
+
   if(cardButtonSecondary) {
     alert("I love You") ;
     cardButtonSecondary.style.backgroundColor = "red";
