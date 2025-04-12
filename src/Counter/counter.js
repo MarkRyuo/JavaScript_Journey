@@ -4,6 +4,6 @@
 const counter = 0 ;
 
 
-const increment = () => {
+function increment = () => {
   counter += 1;
 }
