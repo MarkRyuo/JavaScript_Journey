@@ -20,7 +20,7 @@ const reset = () => {
 let btnCounter = document.querySelector('.btn-counter');
 
 const question = () => {
-  let q1 = win
+  const q1 = prompt("What is your name?");
 
 }
 
