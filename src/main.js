@@ -54,7 +54,7 @@ const cardButtonSecondary = document.querySelector(".card_button--secondary");
 function iloveyou() {
   
   if(cardButtonSecondary) {
-    
+    alert("I love You") ;
   }
 }
 
