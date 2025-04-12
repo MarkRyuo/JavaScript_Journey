@@ -15,3 +15,5 @@ const decrement = () => {
 const reset = () => {
   counter = 0;
 }
+
+
