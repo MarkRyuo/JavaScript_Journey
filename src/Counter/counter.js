@@ -25,12 +25,12 @@ const question = () => {
   const count = 5 ;
 
   while (q1 === null || q1 === "") {
-    let alertStorage = alert("Please enter your name");
+    alert("Please enter your name");
     
     if(q1 === null || q1 === "") {
       q1 = prompt("Please enter your name");
       count -= 1;
-      consolele.log(count);
+      console.log(count);
     }
   }
 
