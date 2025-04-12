@@ -21,6 +21,7 @@ let btnCounter = document.querySelector('.btn-counter');
 
 const question = () => {
   const q1 = prompt("What is your name?");
+  console.log(`Hello ${q1}`);
 
 }
 
