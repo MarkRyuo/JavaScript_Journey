@@ -49,8 +49,9 @@ function hoverButton() {
 cardButtonHover.addEventListener("mouseover", hoverButton);
 
 
-const cardButtonSecondary = document.querySelector(".card_button--secondary") ;
+const cardButtonSecondary = document.querySelector(".card_button--secondary");
 
 function iloveyou() {
   
+  if(cardButtonSecondary ===)
 }
