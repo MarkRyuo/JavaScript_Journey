@@ -18,3 +18,7 @@ const reset = () => {
 
 
 let btnCounter = document.querySelector('.btn-counter');
+
+const question = () => {
+  
+}
