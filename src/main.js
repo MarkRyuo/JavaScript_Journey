@@ -76,3 +76,6 @@ cardButtonSecondary.addEventListener("click", iloveyou);
 //* } else {
 //*   // code to be executed if condition is false
 //* }
+
+
+//* for (let i = 0; i < 5; i++) { }
