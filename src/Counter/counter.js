@@ -4,6 +4,7 @@
 const counter = 0 ;
 
 
-function increment = () => {
+
+function increment() => {
   counter += 1;
 }
