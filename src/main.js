@@ -59,7 +59,10 @@ function iloveyou() {
     alert("I love You") ;
     cardButtonSecondary.style.backgroundColor = "red";
     count = -1;
-    console.log(count);
+    console.log("Increment", count);
+    if(count > 0) {
+      count = 5 ;
+    }
   } else {
     cardButtonSecondary.style.backgroundColor = "green";
   }
