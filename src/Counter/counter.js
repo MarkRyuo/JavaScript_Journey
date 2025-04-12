@@ -23,7 +23,11 @@ const question = () => {
   let q1 = prompt("What is your name?");
 
   while (q1 === null || q1 === "") {
-    q1 = prompt("Please enter your name");
+    let alertStorage = alert("Please enter your name");
+    
+    if(q1 === null || q1 === "") {
+      alertStorage = alert("Please enter your name");
+    }
   }
 
 }
