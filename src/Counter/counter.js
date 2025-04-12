@@ -4,9 +4,11 @@
 
 const counter = 0 ;
 
-
-
 const increment = () => {
   counter += 1;
+}
+
+const decrement = () => {
+  counter -= 1;
 }
 
