@@ -56,10 +56,10 @@ function iloveyou() {
   if(cardButtonSecondary) {
     alert("I love You") ;
     cardButtonSecondary.style.backgroundColor = "red";
-  } else {
-    
   }
 }
+
+cardButtonSecondary.addEventListener("click", iloveyou);
 
 
 
