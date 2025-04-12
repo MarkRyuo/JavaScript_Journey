@@ -36,6 +36,10 @@ const question = () => {
   }
 
   localStorage.setItem('name', q1);
+  const savedItem = localStorage.getItem('name');
+  if (savedItem) {
+    alert(`Welcome Back ${savedItem}`);
+  }
 
 }
 
