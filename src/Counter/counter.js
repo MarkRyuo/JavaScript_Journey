@@ -12,3 +12,6 @@ const decrement = () => {
   counter -= 1;
 }
 
+const getCounter = () => {
+  return counter;
+}
