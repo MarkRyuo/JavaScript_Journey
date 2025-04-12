@@ -29,7 +29,7 @@ const question = () => {
     
     if(q1 === null || q1 === "") {
       q1 = prompt("Please enter your name");
-      count -= 1 ;
+      count -= 1;
     }
   }
 
