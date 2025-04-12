@@ -25,7 +25,7 @@ const question = () => {
   const count = 5 ;
 
   while (q1 === null || q1 === "") {
-    alert("Please enter your name");
+    let alertStorage = alert("Please enter your name");
     
     if(q1 === null || q1 === "") {
       q1 = prompt("Please enter your name");
