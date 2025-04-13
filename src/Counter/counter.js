@@ -46,5 +46,3 @@ const question = () => {
 }
 
 btnCounter.addEventListener('click', question);
-
-
