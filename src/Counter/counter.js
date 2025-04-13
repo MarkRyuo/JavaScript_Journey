@@ -52,3 +52,6 @@ btnCounter.addEventListener('click', question);
 
 
 
+
+
+
