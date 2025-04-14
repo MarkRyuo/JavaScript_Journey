@@ -49,4 +49,12 @@ btnCounter.addEventListener('click', question);
 
 
 // * While Loop, for loop, do while loop 
+//* forEach loop, map loop
+//* try catch
+//* async await
+//* local storage
+
+//* querySelector
+//* querySelectorAll
+//* addEventListener 
 
