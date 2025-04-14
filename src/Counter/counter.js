@@ -48,4 +48,4 @@ const question = () => {
 btnCounter.addEventListener('click', question);
 
 
-// 
+// * While Loop, for loop, do while loop 
