@@ -57,4 +57,3 @@ btnCounter.addEventListener('click', question);
 //* querySelector
 //* querySelectorAll
 //* addEventListener 
-
